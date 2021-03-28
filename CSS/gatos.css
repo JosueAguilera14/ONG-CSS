@@ -2,7 +2,7 @@
     --pequeño: 200;
     --regular: 400;
     --negrita: 700;
-    --tamaño-chico: 2rem;
+    --tamaño-chico: 1.3rem;
     --tamaño-mediano: 3rem;
     --tamaño-grande: 4rem;
 }
@@ -45,6 +45,7 @@ body {
     padding: .5rem 1rem;
     height: 2rem;
     width: 18.5%;
+    font-size: var(--tamaño-chico);
 }
 
 main {
