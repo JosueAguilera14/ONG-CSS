@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(53, 53, 53);
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-vertical {
+    position: fixed;
+    width: 170px;
+    height: 100%;
+}
+
+.menu-contenido {
+    margin: 20px;
+}
+
+.menu-contenido a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.rectangulos {
+    padding-left: 170px;
+    padding-right: 30px;
+}
+
+.celeste {
+    background-color: rgb(93, 211, 247);
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.naranja {
+    background-color: orange;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.texto {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 130px;
+    padding-right: 130px;
+    text-align: justify;
+}
