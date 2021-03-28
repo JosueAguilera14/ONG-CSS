@@ -102,6 +102,8 @@ main {
 .gato p {
     padding: 2rem;
     line-height: 2;
+    color: #fff;
+    font-size: var(--tamaño-chico);
 }
 
 .gato:nth-child(1) {
