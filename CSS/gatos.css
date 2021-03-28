@@ -1,0 +1,116 @@
+:root {
+    --pequeño: 200;
+    --regular: 400;
+    --negrita: 700;
+    --tamaño-chico: 2rem;
+    --tamaño-mediano: 3rem;
+    --tamaño-grande: 4rem;
+}
+
+html {
+    font-size: 62%;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    z-index: 96;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-color: #2f2d31;
+    margin: 0;
+}
+
+.menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 100%;
+    z-index: 95;
+}
+
+.menu a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: #373538;
+    vertical-align: auto;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: var(--regular);
+    padding: .5rem 1rem;
+    height: 2rem;
+    width: 18.5%;
+}
+
+main {
+    position: relative;
+    z-index: 100;
+}
+
+.desc-gatos {
+    background-color: #03b9b9;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.desc-gatos p {
+    font-size: var(--tamaño-chico);
+    line-height: 2;
+    text-align: left;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.desc-gatos h1 {
+    font-size: var(--tamaño-grande);
+    text-transform: uppercase;
+    font-weight: var(--negrita);
+}
+
+.info-gatos {
+    background-color: #03b9b9;
+    padding: 1rem 2rem;
+    margin-top: 4rem;
+}
+
+.info-gatos h2 {
+    font-size: var(--tamaño-mediano);
+    text-align: center;
+    font-weight: var(--regular);
+}
+
+.flex-container {
+    display: flex;
+    gap: 3rem;
+}
+
+.gato {
+    margin: 0 auto;
+}
+
+.gato img {
+    width: 100%;
+    height: 30rem;
+}
+
+.gato p {
+    padding: 2rem;
+    line-height: 2;
+}
+
+.gato:nth-child(1) {
+    background-color: #f1f10a;
+}
+
+.gato:nth-child(2) {
+    background-color: #da4611;
+}
+
+.gato:nth-child(3) {
+    background-color: #f80000;
+}
