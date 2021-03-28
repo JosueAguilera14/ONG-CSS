@@ -19,6 +19,10 @@ body {
     color: #ffffff;
 }
 
+.menu-contenido a:hover {
+    color: rgb(117, 117, 117);
+}
+
 .rectangulos {
     padding-left: 170px;
     padding-right: 30px;
