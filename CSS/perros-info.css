@@ -1,0 +1,29 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #140880;
+}
+
+.linkinicio {
+    color: #ffffff;
+    float: right;
+}
+
+.perro {
+    margin: 100px;
+}
+
+img {
+    float: left;
+    width: 500px;
+    height: 400px;
+    padding-right: 50px;
+}
+
+.info-perro {
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 100px;
+}
