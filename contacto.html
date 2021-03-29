@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/contacto.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+
+    <header class="container-menu">
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="perros.html">Perros</a>
+            <a href="gatos.html">Gatos</a>
+            <a href="nosotros.html">Nosotros</a>
+        </nav>
+    </header>
+
+    <section class="container-formulario">
+        <h2>Contacto</h2>
+
+        <form class="formulario">
+
+            <fieldset>
+                <legend>Contáctanos si quieres adoptar a tu mascota</legend>
+
+                <div class="container-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input class="input-text" type="text" placeholder="Nombre">
+                    </div>
+
+                    <!-- 'tel' permite ingresar solo numeros en el campo(en móvil despliega un teclado de números) -->
+                    <div class="campo">
+                        <label>Teléfono</label>
+                        <input class="input-text" type="tel" placeholder="Teléfono">
+                    </div>
+
+                    <!-- 'email' permite ingresar solo correos en el campo -->
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input class="input-text" type="email" placeholder="Correo">
+                    </div>
+
+                    <!-- textarea crea un area de texto -->
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea class="input-text"></textarea>
+                    </div>
+                </div>
+
+                <!-- 'submit' permite enviar el formulario a un servidor o donde se alojen los datos. -->
+                <div class="container-boton">
+                    <input class="boton" type="submit" value="Enviar">
+                </div>
+            </fieldset>
+
+        </form>
+    </section>
+</body>
+
+</html>
