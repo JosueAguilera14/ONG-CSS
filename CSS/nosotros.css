@@ -23,31 +23,37 @@ body {
     color: rgb(136, 135, 135);
 }
 
-.rectangulos {
-    padding-left: 170px;
+.descripcion {
+    padding-left: 150px;
+    padding-top: 20px;
     padding-right: 30px;
 }
 
-.celeste {
-    background-color: rgb(93, 211, 247);
+.nosotros {
+    background-color: rgb(100, 100, 100);
 }
 
-.amarillo {
-    background-color: yellow;
-}
-
-.naranja {
-    background-color: orange;
-}
-
-.rojo {
-    background-color: red;
+.nosotros h1 {
+    text-align: center;
 }
 
 .texto {
+    color: white;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 130px;
     padding-right: 130px;
     text-align: justify;
+}
+
+.integrantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    padding: 90px;
+    width: 300px;
+    height: 200px;
 }
