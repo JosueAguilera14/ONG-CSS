@@ -3,26 +3,55 @@ html {
 }
 
 body {
-    background-color: #140880;
+    background-color: #b3b3a8;
 }
 
-.linkinicio {
+/* .linkinicio {
     color: #ffffff;
     float: right;
+} */
+.menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 100%;
+    z-index: 95;
 }
+
+.menu a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: #373538;
+    vertical-align: auto;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: var(--regular);
+    padding: .5rem 1rem;
+    height: 2rem;
+    width: 18.5%;
+    font-size: var(--tamaño-chico);
+}
+
 
 .perro {
     margin: 100px;
 }
-
+ 
 img {
     float: left;
     width: 500px;
     height: 400px;
-    padding-right: 50px;
-}
+    padding-right: 200px;
+    margin-left: 50px;
+} 
 
 .info-perro {
+    float:left;
     color: #ffffff;
     font-size: 30px;
     padding-top: 100px;

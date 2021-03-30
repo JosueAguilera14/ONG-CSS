@@ -107,13 +107,13 @@ main {
 }
 
 .perro:nth-child(1) {
-    background-color: #f1f10a;
+    background-color: #b3b3a8;
 }
 
 .perro:nth-child(2) {
-    background-color: #da4611;
+    background-color: #b3b3a8;
 }
 
 .perro:nth-child(3) {
-    background-color: #f80000;
+    background-color:  #b3b3a8;
 }
