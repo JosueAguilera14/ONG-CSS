@@ -1,48 +1,53 @@
 body {
     background-color: rgb(53, 53, 53);
     margin: 0px;
-    padding: 0px;
 }
 
-.menu-vertical {
+
+/*CSS MENU LATERAL*/
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #575757;
     position: fixed;
-    width: 170px;
     height: 100%;
+    overflow: auto;
 }
 
-.menu-contenido {
-    margin: 20px;
-}
-
-.menu-contenido a {
-    text-decoration: none;
+.sidebar a {
+    display: block;
     color: #ffffff;
+    padding: 16px;
+    text-decoration: none;
 }
 
-.menu-contenido a:hover {
-    color: rgb(136, 135, 135);
+.sidebar a.active {
+    background-color: #979797;
+    color: white;
 }
 
-.descripcion {
-    padding-left: 150px;
-    padding-top: 20px;
-    padding-right: 30px;
+.sidebar a:hover:not(.active) {
+    background-color: #979797;
+    color: white;
+}
+
+
+/* CSS CONTENIDO */
+
+div.content {
+    margin-left: 200px;
+    height: 1000px;
 }
 
 .nosotros {
-    background-color: rgb(100, 100, 100);
-}
-
-.nosotros h1 {
+    padding: 40px;
+    color: #ffffff;
     text-align: center;
 }
 
-.texto {
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 130px;
-    padding-right: 130px;
+.nosotros h6 {
     text-align: justify;
 }
 
@@ -53,7 +58,37 @@ body {
 }
 
 img {
-    padding: 90px;
-    width: 300px;
-    height: 200px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 400px;
+    height: 300px;
+}
+
+.rectangulo {
+    padding: 20px;
+    text-align: justify;
+}
+
+
+/* JQUERY MENU LATERAL */
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {
+        float: left;
+    }
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
 }
