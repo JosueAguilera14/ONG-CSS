@@ -60,7 +60,7 @@ main {
 }
 
 .desc-perros p {
-    font-size: var(--tamaño-chico);
+    font-size: calc(var(--tamaño-mediano) / 1.5);
     line-height: 2;
     text-align: left;
     margin-bottom: 1rem;
@@ -102,8 +102,8 @@ main {
 .perro p {
     padding: 2rem;
     line-height: 2;
-    color: #fff;
-    font-size: var(--tamaño-chico);
+    color: #2f2d31;
+    font-size: calc(var(--tamaño-mediano) / 1.5);
 }
 
 .perro:nth-child(1) {

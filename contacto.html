@@ -32,25 +32,25 @@
                 <div class="container-campos">
                     <div class="campo">
                         <label>Nombre</label>
-                        <input class="input-text" type="text" placeholder="Nombre">
+                        <input class="input-text" name="nombre" type="text" placeholder="Nombre" title="Este campo solo acepta caracteres" required >
                     </div>
 
                     <!-- 'tel' permite ingresar solo numeros en el campo(en móvil despliega un teclado de números) -->
                     <div class="campo">
                         <label>Teléfono</label>
-                        <input class="input-text" type="tel" placeholder="Teléfono">
+                        <input class="input-text" name="telefono" type="tel" placeholder="Teléfono" title="Este campo solo acepta números" required>
                     </div>
 
                     <!-- 'email' permite ingresar solo correos en el campo -->
                     <div class="campo">
                         <label>Correo</label>
-                        <input class="input-text" type="email" placeholder="Correo">
+                        <input class="input-text" name="correo" type="email" placeholder="Correo" title="Este campo solo acepta Correos Electrónicos" required>
                     </div>
 
                     <!-- textarea crea un area de texto -->
                     <div class="campo">
                         <label>Mensaje</label>
-                        <textarea class="input-text"></textarea>
+                        <textarea class="input-text" name="mensaje" title="Este campo solo acepta hasta 255 caracteres" required></textarea>
                     </div>
                 </div>
 
@@ -62,6 +62,12 @@
 
         </form>
     </section>
+
+
+
+
+    <script src="JS/formulario-validacion.js"></script>
+    <script src="JS/envio-formulario.js"></script>
 </body>
 
 </html>
